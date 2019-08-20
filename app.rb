@@ -33,4 +33,5 @@ class App < Sinatra::Base
     else 
       "I don't understand this operation."
     end 
+  end 
 end
