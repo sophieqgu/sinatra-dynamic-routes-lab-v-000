@@ -31,7 +31,7 @@ class App < Sinatra::Base
     when "divide"
       "#{params[:number1].to_i / params[:number2].to_i}"
     else 
-      "I don't understand this operation."
+      "Sorry, I don't understand this operation."
     end 
   end 
 end
